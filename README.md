@@ -36,13 +36,20 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
+│   │   ├── 046c14f55b55cbdd006e275d910a069bef452e32
+│   │   │   └── chunk-001.nq.gz
 │   │   └── 5c0e211b9029521daa91bc13ac52c2b01a7faa48
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── 046c14f55b55cbdd006e275d910a069bef452e32.nq.gz
 │   └── repolex
+│       ├── 046c14f55b55cbdd006e275d910a069bef452e32
+│       │   └── chunk-001.nq.gz
 │       └── 5c0e211b9029521daa91bc13ac52c2b01a7faa48
 │           └── chunk-001.nq.gz
 ├── blob
 │   ├── 0a3d3cf3d76c6de84a1bcd5ee0621f852b225343.nq.gz
+│   ├── 10570e48f6d971cbfdd0f42879676f28d36d9d31.nq.gz
 │   ├── 188120b692cc972bed5f7063baaa7ebd9dd5fcea.nq.gz
 │   ├── 19e1d260cad0857e85f107b9221507d51026eecc.nq.gz
 │   ├── 2700e03b17662e30c12e6d997fc62d0142bcf67c.nq.gz
@@ -65,6 +72,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 96f7482dd0ad87f34529f4020974c8c2ead773e6.nq.gz
 │   ├── 987de34b9cc46c1c7e7de9a5dbf9f5adc691498a.nq.gz
 │   ├── 9c0e9a53ef2cb1a4176aec387b0478f9eeef927f.nq.gz
+│   ├── 9ef243bf8b3f4d8d19e3ce6e555d02030751d644.nq.gz
 │   ├── a3df1ed2dc539d0590216374fb1488de65c3ecc6.nq.gz
 │   ├── a8aab0fe81c59c4f76aeba9b030e0789dacbc514.nq.gz
 │   ├── ae7a161f9413d996124a1b566bceb635c1b304de.nq.gz
@@ -92,7 +100,10 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 046c14f55b55cbdd006e275d910a069bef452e32.nq.gz
 ├── filetree
+│   ├── 046c14f55b55cbdd006e275d910a069bef452e32.nq.gz
 │   └── 5c0e211b9029521daa91bc13ac52c2b01a7faa48.nq.gz
 ├── issue
 │   └── issue.nq.gz
@@ -101,7 +112,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 54 files
+17 directories, 61 files
 ```
 
 | Directory | What it contains |
@@ -122,4 +133,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [zopefoundation/transaction](https://github.com/zopefoundation/transaction)
 
 ---
-*Parsed on 2026-11-02 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-22 by [repolex](https://repolex.ai)*
