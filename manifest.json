@@ -117,6 +117,63 @@
       ],
       "ast": [
         "aggregate/ast/046c14f55b55cbdd006e275d910a069bef452e32/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/046c14f55b55cbdd006e275d910a069bef452e32.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "zope-interface",
+          "ecosystem": "PYPI",
+          "version": "8.7.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.interface",
+          "githubUrl": "https://github.com/zopefoundation/zope.interface",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubCommit": "7b2c103eaa4cabf0ac47224c444cf0cbc7c745e5",
+          "githubTag": "v9.2.0",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "repoze-sphinx-autointerface",
+          "ecosystem": "PYPI",
+          "version": "1.1.0",
+          "githubOrg": "repoze",
+          "githubRepo": "repoze.sphinx.autointerface",
+          "githubCommit": "ba8f7f26df46250ee8408c621c423de1e1b2327b",
+          "githubTag": "1.1.0",
+          "githubUrl": "https://github.com/repoze/repoze.sphinx.autointerface",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "coverage",
+          "ecosystem": "PYPI",
+          "version": "7.17.4",
+          "githubOrg": "coveragepy",
+          "githubRepo": "coveragepy",
+          "githubCommit": "fd8e601e25c1e8dde3440fb019ec08283af1bf78",
+          "githubTag": "7.17.4",
+          "githubUrl": "https://github.com/coveragepy/coveragepy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
